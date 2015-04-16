@@ -1,7 +1,7 @@
 {
     "name": "dwo/ecb_exchange_rates",
-    "description": "grep foreign exchange reference rates",
-    "keywords": ["ecb", "euro", "exchange", "rates", "convert"],
+    "description": "grep foreign exchange reference rates from the ecb",
+    "keywords": ["ecb", "euro", "dollar", "exchange-rate", "exchange", "rates", "convert", "currency", "currencies"],
     "homepage": "http://www.lovoo.com",
     "type": "library",
     "license": "MIT",
