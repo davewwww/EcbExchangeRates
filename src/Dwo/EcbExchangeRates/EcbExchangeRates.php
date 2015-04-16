@@ -16,7 +16,6 @@ class EcbExchangeRates
      */
     public static function getAll()
     {
-
         $currencies = array();
 
         $xml = simplexml_load_file(self::URL);
@@ -26,5 +25,4 @@ class EcbExchangeRates
 
         return $currencies;
     }
-
 }

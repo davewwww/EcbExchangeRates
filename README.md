@@ -1,3 +1,7 @@
+https://travis-ci.org/davewwww/EcbExchangeRates.svg?branch=v1.0.0
+
+[![Coverage Status](https://coveralls.io/repos/davewwww/EcbExchangeRates/badge.svg)](https://coveralls.io/r/davewwww/EcbExchangeRates)
+
 EcbExchangeRates
 =================
 
@@ -21,12 +25,16 @@ composer.phar require dwo/ecb_exchange_rates
 
 $exchangeRates = EcbExchangeRates::getAll();
 
-var_dump($exchangeRates);
-array(31) {
-  ["USD"]=>
-  float(1.0711)
-  ["JPY"]=>
-  float(127.64)
-  ...
-)
+```
+
+You will receive an array with the available currencies
+
+```php
+   array(31) {
+     ["USD"]=>
+     float(1.0711)
+     ["JPY"]=>
+     float(127.64)
+     ...
+   )
 ```

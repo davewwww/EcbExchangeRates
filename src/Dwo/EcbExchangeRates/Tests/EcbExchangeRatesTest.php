@@ -17,7 +17,6 @@ class EcbExchangeRatesTest extends \PHPUnit_Framework_TestCase
     public function setup()
     {
         $this->rates = EcbExchangeRates::getAll();
-        die(var_dump(  $this->rates ));
     }
 
     public function testResult()
