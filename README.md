@@ -1,6 +1,4 @@
-https://travis-ci.org/davewwww/EcbExchangeRates.svg?branch=v1.0.0
-
-[![Coverage Status](https://coveralls.io/repos/davewwww/EcbExchangeRates/badge.svg)](https://coveralls.io/r/davewwww/EcbExchangeRates)
+[![Build Status](https://travis-ci.org/davewwww/EcbExchangeRates.svg?branch=v1.0.1)](https://travis-ci.org/davewwww/EcbExchangeRates) [![Coverage Status](https://coveralls.io/repos/davewwww/EcbExchangeRates/badge.svg)](https://coveralls.io/r/davewwww/EcbExchangeRates)
 
 EcbExchangeRates
 =================
@@ -22,7 +20,6 @@ composer.phar require dwo/ecb_exchange_rates
 ### Usage 
 
 ```php
-
 $exchangeRates = EcbExchangeRates::getAll();
 
 ```
