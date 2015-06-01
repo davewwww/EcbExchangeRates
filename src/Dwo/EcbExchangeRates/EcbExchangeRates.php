@@ -5,7 +5,7 @@ namespace Dwo\EcbExchangeRates;
 /**
  * EcbExchangeRates
  *
- * @author David Wolter <david@lovoo.com>
+ * @author David Wolter <davewwwo@gmail.com>
  */
 class EcbExchangeRates
 {
